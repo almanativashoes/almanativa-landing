@@ -1,4 +1,4 @@
-import styles from "./tienda.module.css";
+import styles from "./Tienda.module.css";
 
 export default function Tienda() {
   return (
