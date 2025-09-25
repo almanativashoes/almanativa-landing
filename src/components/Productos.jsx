@@ -53,12 +53,20 @@ export default function Productos() {
 
   return (
     <section id="productos" className={styles.section}>
-      <h2 className={styles.title}>Nuestros productos</h2>
+      <h2 className={styles.title}>Lo mas buscado en Alma Nativa Shoes®</h2>
       <div className={styles.grid}>
         {productos.map((p, i) => (
           <Producto key={i} {...p} />
         ))}
       </div>
+      <p className={styles.descripcion}>
+        Cuando eliges Alma Nativa, eliges sentirte especial, cómoda y auténtica
+        en cada paso.
+      </p>
+      <p className={styles.descripcion}>
+        Más que un zapato, obtienes una experiencia: la de caminar con
+        confianza, estilo y un toque único que nadie más tiene.
+      </p>
     </section>
   );
 }

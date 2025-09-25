@@ -7,6 +7,7 @@ export default function Contacto() {
   return (
     <section id="contacto" className={styles.section}>
       <h2 className={styles.title}>Contáctanos</h2>
+      <p>almanativashoes@gmail.com | +57 320 2514420</p>
       <p className={styles.description}>
         Déjanos tus datos y nos pondremos en contacto contigo lo antes posible.
       </p>

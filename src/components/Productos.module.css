@@ -1,3 +1,9 @@
+:root {
+  --brandGreen: #3c3f20;
+  --brandGold: #c5894b;
+  --brandBeige: #dec9a6;
+}
+
 .section {
   background-color: var(--brandBeige);
   padding: 3rem 1rem;

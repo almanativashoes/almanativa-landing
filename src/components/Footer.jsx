@@ -8,7 +8,8 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <p>
-        © {new Date().getFullYear()} Alma Nativa. Todos los derechos reservados.
+        © {new Date().getFullYear()} Alma Nativa Shoes®. Todos los derechos
+        reservados.
       </p>
       <div className={styles.links}>
         <a

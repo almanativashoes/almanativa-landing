@@ -3,7 +3,7 @@ import styles from "./Navbar.module.css";
 export default function Navbar() {
   return (
     <nav className={styles.navbar}>
-      <div className={styles.logo}>Alma Nativa Shoes</div>
+      <div className={styles.logo}>Alma Nativa Shoes®</div>
       <div className={styles.links}>
         <a href="#hero" className={styles.link}>
           Inicio

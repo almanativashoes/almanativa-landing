@@ -62,12 +62,19 @@ export default function Hero() {
           ></iframe>
         </div>
         <div className={styles.infoContainer}>
-          <h2 className={styles.subtitle}>¿Por qué elegir Alma Nativa?</h2>
+          <h2 className={styles.subtitle}>
+            ¿Por qué elegir Alma Nativa Shoes®?
+          </h2>
           <p className={styles.infoText}>
             En Alma Nativa no vendemos solo zapatos: diseñamos piezas que
             cuentan historias. Cada par es elaborado de manera artesanal, con
             amor por lo natural, respeto por la tradición y un diseño pensado en
-            ti..
+            ti.
+          </p>
+          <p className={styles.infoText}>
+            Con nuestros diseños personalizados, no solo obtienes un zapato
+            artesanal de alta calidad… obtienes exclusividad y distinción que te
+            hacen sentir única y especial.
           </p>
         </div>
       </div>
