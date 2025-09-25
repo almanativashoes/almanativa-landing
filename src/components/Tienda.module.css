@@ -1,0 +1,79 @@
+:root {
+  --brandGreen: #3c3f20;
+  --brandGold: #c5894b;
+  --brandBeige: #dec9a6;
+}
+
+.section {
+  background: var(--brandGreen);
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.title {
+  color: var(--brandBeige);
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.address {
+  color: var(--brandGold);
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.flexContainer {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: stretch; /* <-- Cambia esto */
+  flex-wrap: wrap;
+}
+
+.mapContainer,
+.placeContainer {
+  flex: 1 1 350px;
+  max-width: 600px;
+  min-width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  background: #fff; /* Fondo blanco */
+  border-radius: 0.5rem; /* Bordes redondeados */
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem; /* Espacio interno igual */
+}
+
+.map {
+  border: none;
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 440px;
+  display: block;
+}
+
+.placeImage {
+  width: 100%;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  display: block;
+  /* Quita background, padding y box-shadow aquí */
+}
+
+@media (max-width: 900px) {
+  .flexContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mapContainer,
+  .placeContainer {
+    max-width: 100%;
+  }
+  .map,
+  .placeImage {
+    height: 300px; /* Ambos igual en móvil */
+  }
+}

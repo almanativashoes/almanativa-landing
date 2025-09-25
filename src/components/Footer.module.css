@@ -1,0 +1,34 @@
+:root {
+  --brandGreen: #3c3f20;
+  --brandGold: #c5894b;
+  --brandBeige: #dec9a6;
+}
+
+.footer {
+  background-color: var(--brandGreen);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+}
+
+.links {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.link {
+  color: var(--brandGold);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: var(--brandBeige);
+}
