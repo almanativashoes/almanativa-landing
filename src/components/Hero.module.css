@@ -2,6 +2,7 @@
   --brandGreen: #3c3f20;
   --brandGold: #c5894b;
   --brandBeige: #dec9a6;
+  --brandLight: #e6d5bb;
 }
 
 .section {
@@ -117,6 +118,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   flex-shrink: 0;
   gap: 2rem;
+  margin-top: 2rem; /* ajustar por efecto tamaño */
 }
 
 .logo:hover {
@@ -193,19 +195,19 @@
   border: none;
   border-radius: 0.75rem;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
   background: #fff;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .acordeonItem:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
 }
 
 .acordeonTitulo {
   width: 100%;
-  background: var(--brandBeige); /* no seleccionado */
+  background: var(--brandLight); /* fondo claro por defecto */
   border: none;
   color: var(--brandGreen);
   font-size: 1.1rem;
@@ -218,6 +220,10 @@
   align-items: center;
   justify-content: center;
   gap: 0.75rem;
+}
+
+.acordeonTitulo:hover {
+  background: var(--brandBeige); /* fondo más oscuro al hover */
 }
 
 .acordeonTitulo[aria-expanded="true"] {
