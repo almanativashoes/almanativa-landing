@@ -102,12 +102,16 @@ export default function Hero() {
         <a
           href="https://wa.me/573202514420?text=Hola%20quiero%20personalizar%20mi%20calzado%20Alma%20Nativa"
           className={`${styles.button} ${styles.primary}`}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <FaWandMagicSparkles /> Personaliza tu calzado
         </a>
         <a
           href="https://wa.me/573202514420"
           className={`${styles.button} ${styles.secondary}`}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <IoLogoWhatsapp /> Hablar con un asesor
         </a>
