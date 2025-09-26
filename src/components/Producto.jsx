@@ -2,7 +2,7 @@ import styles from "./Producto.module.css";
 
 export default function Producto({ nombre, descripcion, precio, imagen }) {
   const mensaje = `Hola, me interesa el producto: ${nombre}`;
-  const urlWhatsApp = `https://wa.me/573222078108?text=${encodeURIComponent(
+  const urlWhatsApp = `https://wa.me/573202514420?text=${encodeURIComponent(
     mensaje
   )}`;
 

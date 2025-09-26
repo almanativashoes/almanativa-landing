@@ -53,11 +53,11 @@ export default function Contacto() {
 
       {/* Botones de acción */}
       <div className={styles.actions}>
-        <a href="tel:+573112800479" className={styles.iconButton}>
+        <a href="tel:+573202514420" className={styles.iconButton}>
           <BiSolidPhoneCall /> Llamar
         </a>
         <a
-          href="https://wa.me/573222078108?text=Hola,%20quiero%20más%20información%20sobre%20Alma%20Nativa"
+          href="https://wa.me/573202514420?text=Hola,%20quiero%20más%20información%20sobre%20Alma%20Nativa"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.iconButton}

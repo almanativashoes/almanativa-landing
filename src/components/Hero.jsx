@@ -100,13 +100,13 @@ export default function Hero() {
       {/* Botones de acción */}
       <div className={styles.actions}>
         <a
-          href="https://wa.me/573112800479?text=Hola%20quiero%20personalizar%20mi%20calzado%20Alma%20Nativa"
+          href="https://wa.me/573202514420?text=Hola%20quiero%20personalizar%20mi%20calzado%20Alma%20Nativa"
           className={`${styles.button} ${styles.primary}`}
         >
           <FaWandMagicSparkles /> Personaliza tu calzado
         </a>
         <a
-          href="https://wa.me/573112800479"
+          href="https://wa.me/573202514420"
           className={`${styles.button} ${styles.secondary}`}
         >
           <IoLogoWhatsapp /> Hablar con un asesor
